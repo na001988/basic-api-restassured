@@ -1,0 +1,2782 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "currency": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "exchange_rate": {
+                  "type": "number"
+                },
+                "multiplier": {
+                  "type": "number"
+                },
+                "symbol": {
+                  "type": "string"
+                },
+                "country_code": {
+                  "type": "string"
+                },
+                "default_store_promo_code": {
+                  "type": "string"
+                },
+                "specing_price": {
+                  "type": "number"
+                },
+                "icon_image_file_url": {
+                  "type": "string"
+                },
+                "instant_spec_price": {
+                  "type": "number"
+                },
+                "tax": {
+                  "type": "integer"
+                },
+                "custom_prototype_price": {
+                  "type": "number"
+                },
+                "post_upfront_price": {
+                  "type": "number"
+                },
+                "tax_type": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "code",
+                "exchange_rate",
+                "multiplier",
+                "symbol",
+                "country_code",
+                "default_store_promo_code",
+                "specing_price",
+                "icon_image_file_url",
+                "instant_spec_price",
+                "tax",
+                "custom_prototype_price",
+                "post_upfront_price",
+                "tax_type"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "type",
+            "attributes"
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "currencies": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "string"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "string"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "null"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "string"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "string"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "platforms": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    },
+                    "device": {
+                      "type": "string"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "prototype_platforms": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "null"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "null"
+                    },
+                    "device": {
+                      "type": "null"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "null"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "null"
+                    },
+                    "device": {
+                      "type": "null"
+                    },
+                    "device_icon": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon",
+                    "background",
+                    "device",
+                    "device_icon"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "speed": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "description",
+                    "name",
+                    "icon"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "build_phases": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "index": {
+                      "type": "integer"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "index",
+                    "position",
+                    "icon",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "index": {
+                      "type": "integer"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "index",
+                    "position",
+                    "icon",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "index": {
+                      "type": "integer"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "index",
+                    "position",
+                    "icon",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "index": {
+                      "type": "integer"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "index",
+                    "position",
+                    "icon",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "price_multiplier": {
+                      "type": "number"
+                    },
+                    "week_multiplier": {
+                      "type": "number"
+                    },
+                    "index": {
+                      "type": "integer"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "price_multiplier",
+                    "week_multiplier",
+                    "index",
+                    "position",
+                    "icon",
+                    "background"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "valid_user": {
+      "type": "boolean"
+    },
+    "pricing_logic": {
+      "type": "string"
+    },
+    "productologists": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "build_products": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "string"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "background_color": {
+                      "type": "null"
+                    },
+                    "position": {
+                      "type": "integer"
+                    },
+                    "icon_url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "description",
+                    "type",
+                    "background_color",
+                    "position",
+                    "icon_url"
+                  ]
+                },
+                "relationships": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes",
+                "relationships"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "builder_partner": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "first_name": {
+                  "type": "string"
+                },
+                "last_name": {
+                  "type": "string"
+                },
+                "phone": {
+                  "type": "string"
+                },
+                "partner_name": {
+                  "type": "string"
+                },
+                "company_name": {
+                  "type": "string"
+                },
+                "company_size": {
+                  "type": "null"
+                },
+                "spoc_name": {
+                  "type": "string"
+                },
+                "spoc_role": {
+                  "type": "string"
+                },
+                "industry_type": {
+                  "type": "null"
+                },
+                "website_link": {
+                  "type": "string"
+                },
+                "is_verified": {
+                  "type": "boolean"
+                },
+                "is_approved": {
+                  "type": "boolean"
+                },
+                "logo_url": {
+                  "type": "null"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "partner_multiplier": {
+                  "type": "number"
+                },
+                "partner_type": {
+                  "type": "string"
+                },
+                "tnc_url": {
+                  "type": "null"
+                },
+                "privacy_policy_url": {
+                  "type": "null"
+                },
+                "nda_signed": {
+                  "type": "boolean"
+                },
+                "signature_request_guid": {
+                  "type": "string"
+                },
+                "signature_request_status": {
+                  "type": "boolean"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "variance_percentage": {
+                  "type": "number"
+                },
+                "is_customer_allowed": {
+                  "type": "boolean"
+                },
+                "small_logo_url": {
+                  "type": "null"
+                },
+                "card_added": {
+                  "type": "boolean"
+                },
+                "show_waitlist": {
+                  "type": "boolean"
+                },
+                "builder_live_url": {
+                  "type": "string"
+                },
+                "frontend_url": {
+                  "type": "string"
+                },
+                "builder_now_url": {
+                  "type": "string"
+                },
+                "currencies": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "email",
+                "first_name",
+                "last_name",
+                "phone",
+                "partner_name",
+                "company_name",
+                "company_size",
+                "spoc_name",
+                "spoc_role",
+                "industry_type",
+                "website_link",
+                "is_verified",
+                "is_approved",
+                "logo_url",
+                "code",
+                "partner_multiplier",
+                "partner_type",
+                "tnc_url",
+                "privacy_policy_url",
+                "nda_signed",
+                "signature_request_guid",
+                "signature_request_status",
+                "status",
+                "variance_percentage",
+                "is_customer_allowed",
+                "small_logo_url",
+                "card_added",
+                "show_waitlist",
+                "builder_live_url",
+                "frontend_url",
+                "builder_now_url",
+                "currencies"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "type",
+            "attributes"
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    },
+    "multiplier_experiment": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "price_multiplier": {
+                  "type": "string"
+                },
+                "duration_multiplier": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "custom_price_multiplier": {
+                  "type": "string"
+                },
+                "currency_id": {
+                  "type": "null"
+                },
+                "speed_id": {
+                  "type": "null"
+                },
+                "care_percentage": {
+                  "type": "null"
+                },
+                "care_plus_percentage": {
+                  "type": "null"
+                },
+                "relaxed_mode_disable": {
+                  "type": "null"
+                },
+                "is_default": {
+                  "type": "boolean"
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "price_multiplier",
+                "duration_multiplier",
+                "code",
+                "custom_price_multiplier",
+                "currency_id",
+                "speed_id",
+                "care_percentage",
+                "care_plus_percentage",
+                "relaxed_mode_disable",
+                "is_default",
+                "id"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "type",
+            "attributes"
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    }
+  },
+  "required": [
+    "currency",
+    "currencies",
+    "platforms",
+    "prototype_platforms",
+    "speed",
+    "build_phases",
+    "country_code",
+    "valid_user",
+    "pricing_logic",
+    "productologists",
+    "build_products",
+    "builder_partner",
+    "multiplier_experiment"
+  ]
+}
